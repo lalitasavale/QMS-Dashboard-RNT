@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.conponent-cont{
+    position: fixed;
+    top:10vh;
+    bottom:6vh;
+    left: 16.5vw;
+    width: 82.5vw;
+    height: 83vh;
+    /* border :1px solid black; */
+    /* background-color: rgb(241, 249, 252); */
+    padding: 4px 4px;
+}
+
+.dashbord-text{
+    font-size: 15px;
+    text-align: center;
+    color: skyblue;
+}
+.comp-div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cal-cont{
+    width: 100%;
+    height: 25%;
+    /* background-color: blueviolet; */
+}
+.component-tab-cont{
+    display: flex;
+  width: 100%;
+  border :1px solid black;
+}
+.hrtab{ 
+    padding: 8px 10px;
+    width: 23%;
+    border :1px solid black;
+}
+.ittab{
+    width: 23%;
+    border :1px solid black;
+    padding: 8px 10px;
+}
+.grtab{
+    width: 23%;
+    border :1px solid black;
+    padding: 8px 10px;
+}
+.fttab{
+    width: 23%;
+    padding: 8px 10px;
+    border :1px solid black;
+}
+.table-cont{
+    width: 100%;
+    height: 50vh;
+   
+ 
+}
+
+/* .......... */
+
+.hr-table-container .MuiTable-root thead th:nth-child(1) {
+    width: 30% !important;
+}
+
+.hr-table-container .MuiTable-root thead th:nth-child(2) {
+    width: 25% !important;
+}
+
+.hr-table-container .MuiTable-root thead th:nth-child(3) {
+    width: 10% !important;
+}
+
+.hr-table-container .MuiTable-root thead th:nth-child(4) {
+    width: 27% !important;
+}
+
+.hr-table-container .MuiTable-root thead th:nth-child(5) {
+    width: 8% !important;
+}
+
+.hr-table-container {
+    padding: 0 !important;
+}
+
+.hr-dot {
+    background-color: #6E0095;
+}
+
+.MuiTableCell-root {
+    padding: 0px;
+
+}
+
+.hr-table-row-data {
+    width: 100%;
+    border-right: 1px solid gray;
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    text-align: left;
+    color: gray;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.hr-table-container,
+.MuiTableCell-root {
+    padding: 0px 0px 0px 0px !important;
+}
+
+.hr-table-container .MuiTableCell-root .hr-table-row-data {
+    height: 30px !important;
+}
+
+.MuiTableCell-root .MuiTableCell-footer {
+    height: 33px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-top: 1px solid gray !important;
+}
+
+/* Define custom styles for pagination */
+.custom-pagination-spacer {
+    flex: 0;
+}
+
+.custom-pagination-toolbar .MuiSvgIcon-root {
+    font-size: 24px;
+    /* Adjust the icon size here */
+}
+
+.elipsisData {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
+
+.elipsisData {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
+
+.hr-table-container .MuiTableSortLabel-root {
+    width: 100% !important;
+    padding-left: 7px;
+}
+
+.css-1mbunh-MuiPaper-root{
+    border: 5px solid black;
+    height: 45vh;
+    overflow-y: auto;
+}
